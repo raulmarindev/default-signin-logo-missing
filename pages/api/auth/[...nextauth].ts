@@ -53,6 +53,7 @@ export const authOptions: NextAuthOptions = {
   ],
   theme: {
     colorScheme: "light",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/LGPLv3_Logo.svg/2560px-LGPLv3_Logo.svg.png"
   },
   callbacks: {
     async jwt({ token }) {
